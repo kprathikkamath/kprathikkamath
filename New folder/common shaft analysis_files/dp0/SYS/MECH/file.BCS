@@ -1,0 +1,40 @@
+
+ ===========================
+ = multifrontal statistics =
+ ===========================
+
+     number of equations                     =           81780
+     no. of nonzeroes in lower triangle of a =         2612135
+     number of compressed nodes              =           26422
+     no. of compressed nonzeroes in l. tri.  =          269672
+     amount of workspace currently in use    =        22141106
+     max. amt. of workspace used             =        51135997
+     no. of nonzeroes in the factor l        =        15639027.
+     number of super nodes                   =            3013
+     number of compressed subscripts         =          343380
+     size of stack storage                   =          754695
+     maximum order of a front matrix         =             903
+     maximum size of a front matrix          =          408156
+     maximum size of a front trapezoid       =           55712
+     no. of floating point ops for factor    =      5.0024D+09
+     no. of floating point ops for solve     =      6.2965D+07
+     actual no. of nonzeroes in the factor l =        15639027.
+     actual number of compressed subscripts  =          343380
+     actual size of stack storage used       =          842274
+     negative pivot monitoring activated
+     number of negative pivots encountered   =              0.
+     factorization panel size                =              64
+     factorization update panel size         =              32
+     solution block size                     =               2
+     time (cpu & wall) for structure input   =        0.202801        0.205086
+     time (cpu & wall) for ordering          =        0.468003        0.469928
+     time (cpu & wall) for symbolic factor   =        0.015600        0.017345
+     time (cpu & wall) for value input       =        0.265202        0.259024
+     time (cpu & wall) for numeric factor    =        1.669210        0.844409
+     computational rate (mflops) for factor  =     2996.870963     5924.156047
+     condition number estimate               =      0.0000D+00
+     time (cpu & wall) for numeric solve     =        0.062400        0.032419
+     computational rate (mflops) for solve   =     1009.049101     1942.244285
+     effective I/O rate (MB/sec) for solve   =     3844.477016     7399.950616
+
+     no input or output performed

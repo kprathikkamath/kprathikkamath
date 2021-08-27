@@ -1,0 +1,48 @@
+
+  Performance statistics for Boeing sparse solver: icalls =      1
+
+ ===========================
+ = multifrontal statistics =
+ ===========================
+
+     number of equations                     =          278499
+     no. of nonzeroes in lower triangle of a =        10282276
+     number of compressed nodes              =           89668
+     no. of compressed nonzeroes in l. tri.  =         1042633
+     amount of workspace currently in use    =       146851221
+     max. amt. of workspace used             =       206622938
+     no. of nonzeroes in the factor l        =       121748691.
+     number of super nodes                   =            6218
+     number of compressed subscripts         =         1274793
+     size of stack storage                   =         7102563
+     maximum order of a front matrix         =            3051
+     maximum size of a front matrix          =         4655826
+     maximum size of a front trapezoid       =          193184
+     no. of floating point ops for factor    =      1.2686D+11
+     no. of floating point ops for solve     =      4.1098D+08
+     actual no. of nonzeroes in the factor l =       121748691.
+     actual number of compressed subscripts  =         1274793
+     actual size of stack storage used       =         7390350
+     near zero pivot monitoring activated
+     number of pivots adjusted               =              0.
+     negative pivot monitoring activated
+     number of negative pivots encountered   =             27.
+     first negative pivot                    =           4977.
+     minimum negative pivot                  =     -2.3413D-03
+     maximum negative pivot                  =     -3.2514D-05
+     factorization panel size                =              64
+     factorization update panel size         =              32
+     solution block size                     =               2
+     number of cores used                    =               2
+     time (cpu & wall) for structure input   =        2.772000        2.772584
+     time (cpu & wall) for ordering          =        3.254000        3.253285
+     time (cpu & wall) for symbolic factor   =        0.075000        0.074558
+     time (cpu & wall) for value input       =        1.121000        1.120560
+     time (cpu & wall) for numeric factor    =       15.579000       15.579276
+     computational rate (mflops) for factor  =     8142.862112     8142.717853
+     condition number estimate               =      0.0000D+00
+     time (cpu & wall) for numeric solve     =        0.290000        0.289960
+     computational rate (mflops) for solve   =     1417.182859     1417.378816
+     effective I/O rate (MB/sec) for solve   =     5399.466610     5400.213210
+
+     no input or output performed

@@ -1,0 +1,1458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Storage>
+  <Addins>
+    <Addin Name="Ans.Simulation.Core.Addin" Version="1">
+      <UseNewMechanicalDataTransfer valType="Boolean">true</UseNewMechanicalDataTransfer>
+    </Addin>
+    <addin-list valType="String">[Ans.Simulation.Core.Addin]</addin-list>
+  </Addins>
+  <Containers>
+    <Container Name="ReportDataContainer" Version="1">
+      <Object Name="/ReportDataContainer/ReportDocument:Document" Version="1">
+        <class-type valType="String">ReportDocument</class-type>
+        <object-name valType="String">Document</object-name>
+        <member-data valType="String">{"DisplayText": "Document", "IsActive": True, "SectionContents": [], "SubSections": [$$776aa637-c4b9-44bd-aae8-84c895005263, $$a6110ea0-a0a5-4af0-8d2f-c2c4f4a21eda, $$d5ba2129-0eea-441a-96f9-4a1af63f3670, $$618aa049-35da-4942-a256-715c351f54da, $$5c1bfa0f-6b5c-49e0-b05e-986025317487, $$1e495ed9-9c30-472e-b8b0-4a977e0717af, $$ea3d069a-b2ee-4cb7-afd8-2a0d8c0bfa45, $$0a2c8ff7-224d-47aa-a3d1-b7d7a71ecd42]}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/TitlePageSection:ReportTitlePage" Version="1">
+        <class-type valType="String">TitlePageSection</class-type>
+        <object-name valType="String">ReportTitlePage</object-name>
+        <member-data valType="String">{"DisplayText": "ReportTitlePage", "IsActive": True, "SectionContents": [], "SubSections": [], "IncludeAnsysLogo": True, "IncludeCustomLogo": False, "CustomLogoFilePath": None, "Title": "&lt;use project name&gt;", "Author": "&lt;use preference&gt;", "PreparedFor": None, "IncludeDate": True}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/TableOfContentsSection:ReportTableOfContents" Version="1">
+        <class-type valType="String">TableOfContentsSection</class-type>
+        <object-name valType="String">ReportTableOfContents</object-name>
+        <member-data valType="String">{"DisplayText": "ReportTableOfContents", "IsActive": True, "SectionContents": [], "SubSections": [], "IncludeSectionNumbering": True, "MaximumLevel": 3}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/ReportSection:ProjectParameters" Version="1">
+        <class-type valType="String">ReportSection</class-type>
+        <object-name valType="String">ProjectParameters</object-name>
+        <member-data valType="String">{"DisplayText": "ProjectParameters", "IsActive": True, "SectionContents": [], "SubSections": []}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/ReportSection:ProjectDesignPoints" Version="1">
+        <class-type valType="String">ReportSection</class-type>
+        <object-name valType="String">ProjectDesignPoints</object-name>
+        <member-data valType="String">{"DisplayText": "ProjectDesignPoints", "IsActive": True, "SectionContents": [], "SubSections": []}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/ReportSection:ProjectOverview" Version="1">
+        <class-type valType="String">ReportSection</class-type>
+        <object-name valType="String">ProjectOverview</object-name>
+        <member-data valType="String">{"DisplayText": "ProjectOverview", "IsActive": True, "SectionContents": [], "SubSections": []}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/ReportSection:ProjectContents" Version="1">
+        <class-type valType="String">ReportSection</class-type>
+        <object-name valType="String">ProjectContents</object-name>
+        <member-data valType="String">{"DisplayText": "ProjectContents", "IsActive": True, "SectionContents": [], "SubSections": [$$8dac8922-ab8a-4933-9968-fb06b397a57c]}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/ReportSection:Conclusions" Version="1">
+        <class-type valType="String">ReportSection</class-type>
+        <object-name valType="String">Conclusions</object-name>
+        <member-data valType="String">{"DisplayText": "Conclusions", "IsActive": True, "SectionContents": [], "SubSections": []}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/ReportSection:ProjectFiles" Version="1">
+        <class-type valType="String">ReportSection</class-type>
+        <object-name valType="String">ProjectFiles</object-name>
+        <member-data valType="String">{"DisplayText": "ProjectFiles", "IsActive": True, "SectionContents": [], "SubSections": []}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/SystemSection:SYS" Version="1">
+        <class-type valType="String">SystemSection</class-type>
+        <object-name valType="String">SYS</object-name>
+        <member-data valType="String">{"DisplayText": "SYS", "IsActive": True, "SectionContents": [], "SubSections": [$$0fa222d6-a86f-406b-9998-6f63d2360e53, $$beeb7f35-c3f9-42ad-bada-360d045bfa4a, $$a8378d77-00fd-475a-99da-0ee6fc4e1956, $$084c8bed-a006-4ef0-921d-4ea3b4eebd33, $$6d8a6342-e40e-44c0-907f-8934286461e6, $$32b2916b-a993-4360-92b7-f9f0e1fae210], "IncludeSystemImage": True, "SystemSource": $$98c95e59-e57f-40b4-a4dc-dc861178899b}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/CellSection:Model 1" Version="1">
+        <class-type valType="String">CellSection</class-type>
+        <object-name valType="String">Model 1</object-name>
+        <member-data valType="String">{"DisplayText": "Model", "IsActive": True, "SectionContents": [], "SubSections": [], "CellSource": $$35d8896f-616e-438f-ab30-ddf61b808043}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/CellSection:Setup" Version="1">
+        <class-type valType="String">CellSection</class-type>
+        <object-name valType="String">Setup</object-name>
+        <member-data valType="String">{"DisplayText": "Setup", "IsActive": True, "SectionContents": [], "SubSections": [], "CellSource": $$f5d7a718-f165-419d-927e-1a6a00c94faa}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/CellSection:Geometry" Version="1">
+        <class-type valType="String">CellSection</class-type>
+        <object-name valType="String">Geometry</object-name>
+        <member-data valType="String">{"DisplayText": "Geometry", "IsActive": True, "SectionContents": [], "SubSections": [], "CellSource": $$a65c8eb5-9200-4d14-83fc-d45dca679199}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/CellSection:Engineering Data 1" Version="1">
+        <class-type valType="String">CellSection</class-type>
+        <object-name valType="String">Engineering Data 1</object-name>
+        <member-data valType="String">{"DisplayText": "Engineering Data", "IsActive": True, "SectionContents": [], "SubSections": [], "CellSource": $$28869e19-ad49-4c04-92d0-67ff452bf8df}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/CellSection:Solution 1" Version="1">
+        <class-type valType="String">CellSection</class-type>
+        <object-name valType="String">Solution 1</object-name>
+        <member-data valType="String">{"DisplayText": "Solution", "IsActive": True, "SectionContents": [], "SubSections": [], "CellSource": $$2ff7f353-74c1-4530-bc5f-d788ad8c99a6}</member-data>
+      </Object>
+      <Object Name="/ReportDataContainer/CellSection:Results" Version="1">
+        <class-type valType="String">CellSection</class-type>
+        <object-name valType="String">Results</object-name>
+        <member-data valType="String">{"DisplayText": "Results", "IsActive": True, "SectionContents": [], "SubSections": [], "CellSource": $$dc9998bf-ddff-45ff-bfd9-6c7970429395}</member-data>
+      </Object>
+      <container-type valType="String">Ans.ProjectReporting.Addin:ReportDataContainer</container-type>
+      <static-id valType="String">ReportDataContainer</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{Extrinsic: 563, Input: 1037, Output: 563}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{}</last-update-regen-times>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+    </Container>
+    <Container Name="Units" Version="1">
+      <Object Name="/Units/UnitSystemProjectSettings:UnitSystemProjectSettings" Version="1">
+        <class-type valType="String">UnitSystemProjectSettings</class-type>
+        <object-name valType="String">UnitSystemProjectSettings</object-name>
+        <member-data valType="String">{"DisplayText": "UnitSystemProjectSettings", "DataContainerUnitSystemRegistry": {}}</member-data>
+      </Object>
+      <Object Name="/Units/UnitSystem:UnitSys" Version="1">
+        <class-type valType="String">UnitSystem</class-type>
+        <object-name valType="String">UnitSys</object-name>
+        <member-data valType="String">{"DisplayText": "Metric (kg,m,s,°C,A,N,V)", "UnitSystemName": "MKS_STANDARD", "BaseUnitSystemName": "SI", "Quantities": [$$033a2981-ba96-4cb1-8326-596c9bd7b056, $$3bad3fb6-1dca-4a39-9a27-9ffc1cb2a173, $$de00b05f-a194-4304-99ec-8096a4ff68ce, $$aaf7bf6f-dbeb-44dc-bf6d-8ef9bf2ec0ee, $$61008431-62d7-46ae-910f-5aab680b0ba2, $$8bd99647-d945-4fc6-84e5-702c64688d35, $$44959cfc-49e4-4b93-b07a-17ad20540a47, $$522c8a93-e4b6-4ec6-b67e-1274a0476775, $$ed52dd1c-e657-4a23-bd7e-d8a3e1bfb47e, $$faa643e4-c7af-41b6-bf45-51abdffb301a, $$64931906-f727-4c34-85aa-bc305f717500, $$cf74ccfa-4da7-4427-bf39-1fc7d3a936a4, $$02f05f62-3c3a-4a60-8df5-cd607c53c2bc, $$608fea74-f24f-42be-bcd9-c2daa015c47f, $$8996eebc-de83-462b-bcaa-0d789ebc2e79, $$9f85bf78-ec24-4336-8125-0445eb16b374, $$ca05c7ed-6fc1-439e-bb58-6d1c42cf2dd2, $$f159a715-5e49-417a-9e2b-de5ec245d243, $$d94484d2-2ffb-464a-a781-00b62a3d0892, $$07a44f5b-3fea-4626-94fe-d109bb681074, $$6122f874-8780-4d3e-a698-f7c8154c3a6e, $$42ee0008-338c-452b-88c1-d697826cd9c8, $$7775a899-fb93-4db9-82fe-1fef747d4a90, $$49641b8b-319f-4917-830f-71109f7aace8, $$64026d58-cb4f-4b1f-9e3d-71402b20025f, $$fb84daba-7981-4798-a4f2-a7f0b0e94162, $$d1c01b06-8f3b-4b79-a751-e37b96e5eec0, $$9947d836-8fcb-43fb-8463-00fbeb1d2070, $$1b8da3c1-e0ae-4385-a5fb-d5476efc32f5, $$af8e2960-5ec2-4edb-96e8-2f135c74b59d, $$00e81d8e-1c26-4a16-8a5c-d5aace469226, $$60db3f72-36c7-4b57-9dd4-9393d4252c54, $$81f79704-2b57-4651-ab3f-45000ff5326f, $$cfa833f1-4d23-4207-af20-480ca5871da9, $$4ae64f4a-49b2-4c8b-b00c-b026bc8a108f, $$069d7239-804e-499a-ab23-ca71f4921791, $$376e923d-219f-4150-8e56-5bf0f98f98bf, $$d80a9029-d099-4a41-81e5-4700b13d003a, $$c1d178b1-0f8d-4d3e-b032-805cf586a375, $$676f78d5-0f00-4c49-a2e0-906e4e01690c, $$969e88d8-ec98-420e-bf8b-0750b62b0e3c, $$7ff45b64-e2d7-41c9-875c-c2c506ef3c30, $$e3c2d85a-a6e1-44a2-878e-6033212cf65d, $$1a1edcc0-912b-434c-a8ec-3b48e9cb64c8, $$eef3cf35-8185-437b-859e-0f1c04b57af0, $$a7ad1cd4-8560-4a1b-b14b-123726a0d738, $$c337f70b-82af-42ca-ad00-a71a58fa795c, $$9a0dbd2a-8367-44f0-81ee-097f03ff7b3b, $$4add1b51-578c-4bea-891a-3ae099d4169f, $$9776b8a5-46fe-4c83-b2ca-39864c5b3e03, $$e4c47888-d993-4adb-b5dd-2cff5822f013, $$88ce30cf-6d18-4596-9ca1-3199eb7dea8f, $$e9eea675-f084-4434-9205-a103607a85a7, $$aeb84cf8-cf35-4368-a96a-dcd26111e8ca, $$2b3c49b4-a847-4083-a57d-7971e4fc5b07, $$3210fbfe-ac53-4d86-b812-c1238e161ec6, $$5f653d8d-8b84-4475-92fe-319d40a25775, $$1cb1ffa0-b11a-47bf-81eb-7e3c629e1907, $$52562803-8751-491f-bfd3-ad825368b5d1, $$fe7a4b52-bed3-4c80-a142-3f3be5a7d06a, $$4b1839b6-bff4-4d12-b607-f69255b8d64f, $$35780751-3e93-4148-a2f2-7d34e6791f9c, $$b3c3d45b-28bb-4ba0-bac0-485a0d50bb92, $$d9aeec86-45b2-448b-aea4-5e91bae5fbd8, $$d8bc2020-a0f6-400f-afaf-758a09e4e0d6, $$65736dea-e81d-4111-849e-18323cc6b606, $$678add77-a488-4912-a242-cffa6d03b701, $$33d5f9e7-3f76-488a-b89b-1ad4ac775718, $$d52d201d-ee4f-408b-bcb7-480b239fbb84, $$95a0b3d4-f186-48fd-a724-2bb2e7d9a371, $$b8c85fb6-b442-4c0d-aedf-1a5ac88ea7e6, $$44de2c04-2c17-4df1-9414-3fa0a7da3bd2, $$a212f665-dfa7-4e78-99a8-68192ee75e55, $$03a258ad-68c7-48f5-a283-31a15dd0631e, $$f7d3b720-3599-42e3-b852-c7c738971f01, $$123218da-86ff-4c55-8cd8-076095ce2e3d, $$f2e21394-3900-44bf-86ff-6b1a977ab1de, $$2417fe9e-3893-4830-9d49-195decb89ff5, $$ff35290d-59d7-4c52-8a93-2f891c748abc, $$891e320e-0316-404a-9215-09bc643a28c6, $$7cfdf738-588c-4153-9d76-78d5d0038da5, $$cca9694f-5234-441d-ba5c-bbccbe659c8a, $$8b89e6bf-2a53-47c9-a0cd-8b710be6418b, $$b8d1c240-899c-4c29-b699-d55bcb5f890a, $$dae4cf4c-d007-4e30-b33e-1655c71ebba4, $$432eed1e-acf8-4387-9cbf-edf035a1d9bf, $$d68faaaa-581a-467c-81a8-df6802487c33, $$8e215461-4ac2-408b-bdfc-d3eca8a61fc7, $$3716b2c8-ed76-4299-bd9f-866dc39a9c7a, $$a8217414-e72c-4aa3-8a13-bb804ea44043, $$7bc102bb-921d-4923-a1bf-4e3237045511, $$484463ee-c8e6-4b14-a40a-44cfeb76617a, $$d7f609de-e0bd-45ef-8a5e-c060adc84f69, $$d1d61346-68c3-43a9-b939-81755e23e42d, $$6e89235f-2f29-4cd9-a4d7-43f474619701, $$ec5044da-8fcc-4e59-a5a2-efb42658d383, $$a9138c13-16d6-4bce-8007-3eec145be60d, $$a4fe41b7-9ceb-4591-8ef6-963b0fcb2974, $$7a66e78c-1b2e-4804-8b25-1ef988a05ce2, $$6c75b6a0-33f8-4e88-a948-3b99f4944c25, $$f4fa6328-6d55-40d9-a708-5ac709dca68c, $$c844b0f5-33d0-4275-af9c-2c2240a345d0, $$340ae492-52a1-4ac1-87fe-317681cc2f30, $$43998d2c-1505-4525-b675-15449ed920c3, $$a0f1c496-cdca-4627-a66f-3432b38b29f0, $$65775653-be7b-481d-8c24-127ab97178b8, $$2c072902-4570-4ed5-bfda-c74223095249, $$03e0659d-2b20-4b69-aa38-495db0d8a654, $$3dcfa84d-bdd4-4a66-a2fa-f0c259e92f5d, $$0bfc4dff-bc6f-46d6-be0f-231105121af8, $$46a3d495-c833-487a-9bc7-884105631b53, $$0beb41dd-8c38-41d7-b9ff-d5850393c763, $$df08d228-4bfa-42d3-806b-cc2767f6d9e1, $$a2c36191-dcf1-4653-9e13-e32360664a3d, $$b840dbc6-9a47-4114-b894-2b2481a8de09, $$0ad1db33-d0c5-4edc-b66e-bdeefd253ae3, $$041d1c1b-9f04-4fe2-92d4-e023b0e0ebcf, $$ed592843-4f68-4343-8d6e-42f98a4c8e92, $$2ba28ffb-b39d-4ae5-9dd8-dae8afc7a5e5, $$158ebe85-5b38-40c1-836a-ea4f53fb5608, $$e59b4ed3-88f1-497c-b3a4-425e4d6fd3a6, $$fc100b64-f851-47d0-85f4-d727856fd4d8, $$8dff39a7-b8ff-4242-b440-c855a4ad8399, $$db1a4d02-c8e9-47bc-9672-8a300e08d889, $$598b25e3-f4ae-4894-9823-1e2914198879, $$dd1f2509-b83b-4bcb-bd7d-13740da31826, $$65741b63-d2c8-457f-800d-e69cc32d4931, $$5b7e9e00-b051-444b-a490-6eb56295b04c, $$fd252672-119b-49fb-8192-29825883c8e8, $$8bbc6429-ff86-4ead-b06e-d997ce9c84b7, $$1b0a62b4-1eca-40be-9f63-650c7fe11387, $$a496e2fa-5b2d-47a3-8cab-f0b2de3ab5d4, $$ed792e3d-8aa4-4fe5-b8d5-44afd21bd279, $$b401ac60-a113-4a72-be54-c551a4634972, $$b3b5d83a-44f1-4eff-adb8-3964d3fccb86, $$b506267b-1948-4a2c-9394-fab010e522ee, $$0d04decb-2b77-47a0-8356-8108ae6b6659, $$08f90ab7-194f-4cac-8f06-9b1e2f4dc1f4, $$f325c117-3ff2-499c-bd87-31c61592408b, $$46c5a128-a9ad-43c0-98d5-ef6c447dccb4, $$f3e62e72-6ee7-418d-8e9c-8cc272754efe, $$07118f07-81a7-4e19-bbc2-d2692f90a15d, $$47f25fbc-94da-4b71-bf65-a2711b906162, $$7ce151cd-36fe-4faf-8991-d49b90806932, $$bb769bf7-0763-4613-bd45-bed7e4559fb8, $$56b602ba-5580-45c7-96fc-ffb457c99205, $$7bede3eb-5df2-4b56-a6e0-e67b1d5e01d3, $$73bc17bb-fbf0-49b3-b1f5-296fcce97f0b, $$421a922f-8dd7-4af9-ac5c-d83fc7417cdf, $$f1cf5cff-1d2c-451b-a340-d979c17d27f1, $$1c31b96a-db97-4a2c-ba6c-624d56f81aa4, $$e7bbd123-0311-470d-8971-e7b44aaaf943, $$b790ede3-8fd2-437e-bd6c-f6356c5da715, $$e0b59784-ec1b-45ab-88e6-ac0292a25378, $$8a6c6044-a85d-45bf-bb88-49577a6023bc, $$1e2dcd21-6cbf-493b-acf5-8ad43faa6d0f, $$ba580d89-aef2-4f32-b701-e80237ed4466, $$4212ed01-64af-4e5e-a162-e94f50d5ac3a, $$dba139e9-fc67-46cb-ad0e-bda412ec0648, $$2118be6a-ed23-47d3-9f78-99463c87319d, $$5f2fa023-e66e-462f-ab9a-ddb0334c02ed, $$380f49f8-69f8-4780-9c6d-09787ea0c85e, $$54159684-9ab3-4a59-8cdc-4fdd59b74ea4, $$186c0650-4b09-4335-9bd7-62bf29f4d0ba, $$28a8dc5d-7ac0-46f4-b1df-ae8ea9e9a0f3], "IsProjectUnitSystem": True, "IsDefault": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity</object-name>
+        <member-data valType="String">{"DisplayText": "Angle", "QuantityName": "Angle", "Unit": "radian", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 1" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 1</object-name>
+        <member-data valType="String">{"DisplayText": "Chemical Amount", "QuantityName": "Chemical Amount", "Unit": "mol", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 2" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 2</object-name>
+        <member-data valType="String">{"DisplayText": "Current", "QuantityName": "Current", "Unit": "A", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 3" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 3</object-name>
+        <member-data valType="String">{"DisplayText": "Length", "QuantityName": "Length", "Unit": "m", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 4" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 4</object-name>
+        <member-data valType="String">{"DisplayText": "Luminance", "QuantityName": "Luminance", "Unit": "cd", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 5" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 5</object-name>
+        <member-data valType="String">{"DisplayText": "Mass", "QuantityName": "Mass", "Unit": "kg", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 6" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 6</object-name>
+        <member-data valType="String">{"DisplayText": "Solid Angle", "QuantityName": "Solid Angle", "Unit": "sr", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 7" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 7</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature", "QuantityName": "Temperature", "Unit": "C", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 8" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 8</object-name>
+        <member-data valType="String">{"DisplayText": "Time", "QuantityName": "Time", "Unit": "s", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 9" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 9</object-name>
+        <member-data valType="String">{"DisplayText": "Electric Charge", "QuantityName": "Electric Charge", "Unit": "A s", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 10" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 10</object-name>
+        <member-data valType="String">{"DisplayText": "Energy", "QuantityName": "Energy", "Unit": "J", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 11" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 11</object-name>
+        <member-data valType="String">{"DisplayText": "Force", "QuantityName": "Force", "Unit": "N", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 12" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 12</object-name>
+        <member-data valType="String">{"DisplayText": "Pressure", "QuantityName": "Pressure", "Unit": "Pa", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 13" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 13</object-name>
+        <member-data valType="String">{"DisplayText": "Power", "QuantityName": "Power", "Unit": "W", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 14" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 14</object-name>
+        <member-data valType="String">{"DisplayText": "Voltage", "QuantityName": "Voltage", "Unit": "V", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 15" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 15</object-name>
+        <member-data valType="String">{"DisplayText": "Acceleration", "QuantityName": "Acceleration", "Unit": "m s^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 16" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 16</object-name>
+        <member-data valType="String">{"DisplayText": "RS Acceleration Gravity", "QuantityName": "RS Acceleration Gravity", "Unit": "gravity", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 17" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 17</object-name>
+        <member-data valType="String">{"DisplayText": "Angular Acceleration", "QuantityName": "Angular Acceleration", "Unit": "rad s^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 18" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 18</object-name>
+        <member-data valType="String">{"DisplayText": "Angular Velocity", "QuantityName": "Angular Velocity", "Unit": "radian s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 19" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 19</object-name>
+        <member-data valType="String">{"DisplayText": "Area", "QuantityName": "Area", "Unit": "m^2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 20" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 20</object-name>
+        <member-data valType="String">{"DisplayText": "Compressibility", "QuantityName": "Compressibility", "Unit": "Pa^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 21" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 21</object-name>
+        <member-data valType="String">{"DisplayText": "Concentration", "QuantityName": "Concentration", "Unit": "m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 22" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 22</object-name>
+        <member-data valType="String">{"DisplayText": "Current Transfer Coefficient", "QuantityName": "Current Transfer Coefficient", "Unit": "A m^-2 V^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 23" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 23</object-name>
+        <member-data valType="String">{"DisplayText": "Decay Constant", "QuantityName": "Decay Constant", "Unit": "s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 24" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 24</object-name>
+        <member-data valType="String">{"DisplayText": "Density", "QuantityName": "Density", "Unit": "kg m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 25" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 25</object-name>
+        <member-data valType="String">{"DisplayText": "Density Derivative", "QuantityName": "Density Derivative", "Unit": "m^-2 s^2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 26" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 26</object-name>
+        <member-data valType="String">{"DisplayText": "Dynamic Viscosity", "QuantityName": "Dynamic Viscosity", "Unit": "Pa s", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 27" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 27</object-name>
+        <member-data valType="String">{"DisplayText": "Electric Charge Density", "QuantityName": "Electric Charge Density", "Unit": "A s m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 28" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 28</object-name>
+        <member-data valType="String">{"DisplayText": "Electric Current Density", "QuantityName": "Electric Current Density", "Unit": "A m^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 29" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 29</object-name>
+        <member-data valType="String">{"DisplayText": "Electric Current Source", "QuantityName": "Electric Current Source", "Unit": "A m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 30" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 30</object-name>
+        <member-data valType="String">{"DisplayText": "Electric Field", "QuantityName": "Electric Field", "Unit": "V m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 31" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 31</object-name>
+        <member-data valType="String">{"DisplayText": "Electrical Conductance", "QuantityName": "Electrical Conductance", "Unit": "S", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 32" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 32</object-name>
+        <member-data valType="String">{"DisplayText": "Electrical Conductivity", "QuantityName": "Electrical Conductivity", "Unit": "S m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 33" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 33</object-name>
+        <member-data valType="String">{"DisplayText": "Electrical Permittivity", "QuantityName": "Electrical Permittivity", "Unit": "A s V^-1 m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 34" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 34</object-name>
+        <member-data valType="String">{"DisplayText": "Electrical Resistance", "QuantityName": "Electrical Resistance", "Unit": "ohm", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 35" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 35</object-name>
+        <member-data valType="String">{"DisplayText": "Electrical Resistivity", "QuantityName": "Electrical Resistivity", "Unit": "ohm m", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 36" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 36</object-name>
+        <member-data valType="String">{"DisplayText": "Energy Source", "QuantityName": "Energy Source", "Unit": "W m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 37" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 37</object-name>
+        <member-data valType="String">{"DisplayText": "Energy Source Coefficient", "QuantityName": "Energy Source Coefficient", "Unit": "W m^-3 C^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 38" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 38</object-name>
+        <member-data valType="String">{"DisplayText": "Enthalpy Variance", "QuantityName": "Enthalpy Variance", "Unit": "m^4 s^-4", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 39" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 39</object-name>
+        <member-data valType="String">{"DisplayText": "Epsilon", "QuantityName": "Epsilon", "Unit": "m^2 s^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 40" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 40</object-name>
+        <member-data valType="String">{"DisplayText": "Epsilon Flux", "QuantityName": "Epsilon Flux", "Unit": "W m^-2 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 41" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 41</object-name>
+        <member-data valType="String">{"DisplayText": "Epsilon Flux Coefficient", "QuantityName": "Epsilon Flux Coefficient", "Unit": "kg m^-2 s^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 42" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 42</object-name>
+        <member-data valType="String">{"DisplayText": "Epsilon Source", "QuantityName": "Epsilon Source", "Unit": "W m^-3 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 43" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 43</object-name>
+        <member-data valType="String">{"DisplayText": "Epsilon Source Coefficient", "QuantityName": "Epsilon Source Coefficient", "Unit": "kg m^-3 s^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 44" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 44</object-name>
+        <member-data valType="String">{"DisplayText": "Flame Surface Density Source", "QuantityName": "Flame Surface Density Source", "Unit": "m^-1 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 45" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 45</object-name>
+        <member-data valType="String">{"DisplayText": "Force Per Angular Unit", "QuantityName": "Force Per Angular Unit", "Unit": "N rad^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 46" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 46</object-name>
+        <member-data valType="String">{"DisplayText": "Fracture Energy", "QuantityName": "Fracture Energy", "Unit": "J m^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 47" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 47</object-name>
+        <member-data valType="String">{"DisplayText": "Heat Flux in", "QuantityName": "Heat Flux in", "Unit": "W m^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 48" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 48</object-name>
+        <member-data valType="String">{"DisplayText": "Heat Transfer Coefficient", "QuantityName": "Heat Transfer Coefficient", "Unit": "W m^-2 C^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 49" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 49</object-name>
+        <member-data valType="String">{"DisplayText": "Interphase Transfer Coefficient", "QuantityName": "Interphase Transfer Coefficient", "Unit": "kg m^-2 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 50" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 50</object-name>
+        <member-data valType="String">{"DisplayText": "Inverse Area", "QuantityName": "Inverse Area", "Unit": "m^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 51" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 51</object-name>
+        <member-data valType="String">{"DisplayText": "Inverse Length", "QuantityName": "Inverse Length", "Unit": "m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 52" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 52</object-name>
+        <member-data valType="String">{"DisplayText": "InvTemp1", "QuantityName": "InvTemp1", "Unit": "C^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 53" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 53</object-name>
+        <member-data valType="String">{"DisplayText": "InvTemp2", "QuantityName": "InvTemp2", "Unit": "C^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 54" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 54</object-name>
+        <member-data valType="String">{"DisplayText": "InvTemp3", "QuantityName": "InvTemp3", "Unit": "C^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 55" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 55</object-name>
+        <member-data valType="String">{"DisplayText": "InvTemp4", "QuantityName": "InvTemp4", "Unit": "C^-4", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 56" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 56</object-name>
+        <member-data valType="String">{"DisplayText": "k", "QuantityName": "k", "Unit": "m^2 s^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 57" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 57</object-name>
+        <member-data valType="String">{"DisplayText": "k Flux", "QuantityName": "k Flux", "Unit": "W m^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 58" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 58</object-name>
+        <member-data valType="String">{"DisplayText": "k Flux Coefficient", "QuantityName": "k Flux Coefficient", "Unit": "kg m^-2 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 59" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 59</object-name>
+        <member-data valType="String">{"DisplayText": "k Source", "QuantityName": "k Source", "Unit": "W m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 60" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 60</object-name>
+        <member-data valType="String">{"DisplayText": "k Source Coefficient", "QuantityName": "k Source Coefficient", "Unit": "kg m^-3 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 61" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 61</object-name>
+        <member-data valType="String">{"DisplayText": "Kinematic Diffusivity", "QuantityName": "Kinematic Diffusivity", "Unit": "m^2 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 62" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 62</object-name>
+        <member-data valType="String">{"DisplayText": "Magnetic Field", "QuantityName": "Magnetic Field", "Unit": "A m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 63" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 63</object-name>
+        <member-data valType="String">{"DisplayText": "Magnetic Field Intensity", "QuantityName": "Magnetic Field Intensity", "Unit": "A m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 64" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 64</object-name>
+        <member-data valType="String">{"DisplayText": "Magnetic Flux", "QuantityName": "Magnetic Flux", "Unit": "Wb", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 65" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 65</object-name>
+        <member-data valType="String">{"DisplayText": "Magnetic Flux Density", "QuantityName": "Magnetic Flux Density", "Unit": "T", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 66" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 66</object-name>
+        <member-data valType="String">{"DisplayText": "Magnetic Induction", "QuantityName": "Magnetic Induction", "Unit": "T", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 67" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 67</object-name>
+        <member-data valType="String">{"DisplayText": "Magnetic Potential", "QuantityName": "Magnetic Potential", "Unit": "T m", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 68" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 68</object-name>
+        <member-data valType="String">{"DisplayText": "Magnetic Permeability", "QuantityName": "Magnetic Permeability", "Unit": "H m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 69" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 69</object-name>
+        <member-data valType="String">{"DisplayText": "Mass Concentration", "QuantityName": "Mass Concentration", "Unit": "kg m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 70" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 70</object-name>
+        <member-data valType="String">{"DisplayText": "Mass Concentration Rate", "QuantityName": "Mass Concentration Rate", "Unit": "kg m^-3 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 71" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 71</object-name>
+        <member-data valType="String">{"DisplayText": "Mass Flow", "QuantityName": "Mass Flow", "Unit": "kg s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 72" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 72</object-name>
+        <member-data valType="String">{"DisplayText": "Mass Flow in", "QuantityName": "Mass Flow in", "Unit": "kg s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 73" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 73</object-name>
+        <member-data valType="String">{"DisplayText": "Mass Flux", "QuantityName": "Mass Flux", "Unit": "kg s^-1 m^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 74" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 74</object-name>
+        <member-data valType="String">{"DisplayText": "Mass Flux Coefficient", "QuantityName": "Mass Flux Coefficient", "Unit": "kg s^-1 m^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 75" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 75</object-name>
+        <member-data valType="String">{"DisplayText": "Mass Flux Pressure Coefficient", "QuantityName": "Mass Flux Pressure Coefficient", "Unit": "kg s^-1 m^-2 Pa^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 76" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 76</object-name>
+        <member-data valType="String">{"DisplayText": "Mass Fraction", "QuantityName": "Mass Fraction", "Unit": "kg kg^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 77" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 77</object-name>
+        <member-data valType="String">{"DisplayText": "Mass Source", "QuantityName": "Mass Source", "Unit": "kg s^-1 m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 78" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 78</object-name>
+        <member-data valType="String">{"DisplayText": "Mass Source Coefficient", "QuantityName": "Mass Source Coefficient", "Unit": "kg s^-1 m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 79" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 79</object-name>
+        <member-data valType="String">{"DisplayText": "Mass Source Pressure Coefficient", "QuantityName": "Mass Source Pressure Coefficient", "Unit": "kg s^-1 m^-3 Pa^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 80" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 80</object-name>
+        <member-data valType="String">{"DisplayText": "Molar Concentration", "QuantityName": "Molar Concentration", "Unit": "mol m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 81" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 81</object-name>
+        <member-data valType="String">{"DisplayText": "Molar Concentration Henry Coefficient", "QuantityName": "Molar Concentration Henry Coefficient", "Unit": "Pa m^3 mol^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 82" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 82</object-name>
+        <member-data valType="String">{"DisplayText": "Molar Concentration Rate", "QuantityName": "Molar Concentration Rate", "Unit": "mol m^-3 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 83" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 83</object-name>
+        <member-data valType="String">{"DisplayText": "Molar Energy", "QuantityName": "Molar Energy", "Unit": "J mol^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 84" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 84</object-name>
+        <member-data valType="String">{"DisplayText": "Molar Entropy", "QuantityName": "Molar Entropy", "Unit": "J mol^-1 C^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 85" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 85</object-name>
+        <member-data valType="String">{"DisplayText": "Molar Fraction", "QuantityName": "Molar Fraction", "Unit": "mol mol^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 86" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 86</object-name>
+        <member-data valType="String">{"DisplayText": "Molar Volume", "QuantityName": "Molar Volume", "Unit": "m^3 mol^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 87" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 87</object-name>
+        <member-data valType="String">{"DisplayText": "Moment", "QuantityName": "Moment", "Unit": "N m", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 88" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 88</object-name>
+        <member-data valType="String">{"DisplayText": "Momentum Source", "QuantityName": "Momentum Source", "Unit": "kg m^-2 s^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 89" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 89</object-name>
+        <member-data valType="String">{"DisplayText": "Momentum Source Lin Coeff", "QuantityName": "Momentum Source Lin Coeff", "Unit": "kg m^-3 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 90" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 90</object-name>
+        <member-data valType="String">{"DisplayText": "Momentum Source Quad Coeff", "QuantityName": "Momentum Source Quad Coeff", "Unit": "kg m^-4", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 91" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 91</object-name>
+        <member-data valType="String">{"DisplayText": "Number Source", "QuantityName": "Number Source", "Unit": "m^-3 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 92" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 92</object-name>
+        <member-data valType="String">{"DisplayText": "Omega Source", "QuantityName": "Omega Source", "Unit": "kg m^-3 s^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 93" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 93</object-name>
+        <member-data valType="String">{"DisplayText": "Per Mass", "QuantityName": "Per Mass", "Unit": "kg^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 94" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 94</object-name>
+        <member-data valType="String">{"DisplayText": "Per Mass Flow", "QuantityName": "Per Mass Flow", "Unit": "s kg^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 95" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 95</object-name>
+        <member-data valType="String">{"DisplayText": "Per Time", "QuantityName": "Per Time", "Unit": "s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 96" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 96</object-name>
+        <member-data valType="String">{"DisplayText": "Molar Mass", "QuantityName": "Molar Mass", "Unit": "kg kmol^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 97" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 97</object-name>
+        <member-data valType="String">{"DisplayText": "Seebeck Coefficient", "QuantityName": "Seebeck Coefficient", "Unit": "V C^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 98" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 98</object-name>
+        <member-data valType="String">{"DisplayText": "Shear Strain Rate", "QuantityName": "Shear Strain Rate", "Unit": "s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 99" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 99</object-name>
+        <member-data valType="String">{"DisplayText": "Shock Velocity", "QuantityName": "Shock Velocity", "Unit": "s m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 100" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 100</object-name>
+        <member-data valType="String">{"DisplayText": "Soot Cross Coefficient", "QuantityName": "Soot Cross Coefficient", "Unit": "m^3 mol^-1 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 101" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 101</object-name>
+        <member-data valType="String">{"DisplayText": "Soot PX Factor", "QuantityName": "Soot PX Factor", "Unit": "mol kg^-1 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 102" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 102</object-name>
+        <member-data valType="String">{"DisplayText": "Specific", "QuantityName": "Specific", "Unit": "kg kg^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 103" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 103</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Concentration", "QuantityName": "Specific Concentration", "Unit": "mol kg^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 104" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 104</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Energy", "QuantityName": "Specific Energy", "Unit": "J kg^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 105" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 105</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Enthalpy", "QuantityName": "Specific Enthalpy", "Unit": "J kg^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 106" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 106</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Entropy", "QuantityName": "Specific Entropy", "Unit": "J kg^-1 C^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 107" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 107</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Flame Surface Density", "QuantityName": "Specific Flame Surface Density", "Unit": "m^2 kg^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 108" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 108</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Heat Capacity", "QuantityName": "Specific Heat Capacity", "Unit": "J kg^-1 C^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 109" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 109</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Volume", "QuantityName": "Specific Volume", "Unit": "kg^-1 m^3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 110" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 110</object-name>
+        <member-data valType="String">{"DisplayText": "Surface Tension", "QuantityName": "Surface Tension", "Unit": "N m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 111" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 111</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature Variance", "QuantityName": "Temperature Variance", "Unit": "C^2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 112" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 112</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature Variance Source", "QuantityName": "Temperature Variance Source", "Unit": "kg m^-3 s^-1 C^2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 113" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 113</object-name>
+        <member-data valType="String">{"DisplayText": "Thermal Conductivity", "QuantityName": "Thermal Conductivity", "Unit": "W m^-1 C^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 114" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 114</object-name>
+        <member-data valType="String">{"DisplayText": "Thermal Expansivity", "QuantityName": "Thermal Expansivity", "Unit": "C^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 115" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 115</object-name>
+        <member-data valType="String">{"DisplayText": "Torque", "QuantityName": "Torque", "Unit": "N m", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 116" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 116</object-name>
+        <member-data valType="String">{"DisplayText": "Total Mass Source Pressure Coefficient", "QuantityName": "Total Mass Source Pressure Coefficient", "Unit": "kg s^-1 Pa^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 117" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 117</object-name>
+        <member-data valType="String">{"DisplayText": "Material Impedance", "QuantityName": "Material Impedance", "Unit": "kg m^-2 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 118" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 118</object-name>
+        <member-data valType="String">{"DisplayText": "Total Radiative Intensity", "QuantityName": "Total Radiative Intensity", "Unit": "W m^-2 sr^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 119" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 119</object-name>
+        <member-data valType="String">{"DisplayText": "Turbulent Heat Flux", "QuantityName": "Turbulent Heat Flux", "Unit": "m^3 s^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 120" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 120</object-name>
+        <member-data valType="String">{"DisplayText": "Velocity", "QuantityName": "Velocity", "Unit": "m s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 121" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 121</object-name>
+        <member-data valType="String">{"DisplayText": "Volume", "QuantityName": "Volume", "Unit": "m^3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 122" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 122</object-name>
+        <member-data valType="String">{"DisplayText": "Volumetric", "QuantityName": "Volumetric", "Unit": "kg m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 123" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 123</object-name>
+        <member-data valType="String">{"DisplayText": "Volumetric Flow", "QuantityName": "Volumetric Flow", "Unit": "m^3 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 124" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 124</object-name>
+        <member-data valType="String">{"DisplayText": "Volumetric Flow in", "QuantityName": "Volumetric Flow in", "Unit": "m^3 s^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 125" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 125</object-name>
+        <member-data valType="String">{"DisplayText": "Capacitance", "QuantityName": "Capacitance", "Unit": "farad", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 126" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 126</object-name>
+        <member-data valType="String">{"DisplayText": "Electric Conductance Per Unit Area", "QuantityName": "Electric Conductance Per Unit Area", "Unit": "S m^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 127" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 127</object-name>
+        <member-data valType="String">{"DisplayText": "Electric Flux Density", "QuantityName": "Electric Flux Density", "Unit": "coulomb m^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 128" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 128</object-name>
+        <member-data valType="String">{"DisplayText": "Energy Density by Mass", "QuantityName": "Energy Density by Mass", "Unit": "J kg^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 129" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 129</object-name>
+        <member-data valType="String">{"DisplayText": "Force Intensity", "QuantityName": "Force Intensity", "Unit": "N m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 130" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 130</object-name>
+        <member-data valType="String">{"DisplayText": "Frequency", "QuantityName": "Frequency", "Unit": "Hz", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 131" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 131</object-name>
+        <member-data valType="String">{"DisplayText": "Gasket Stiffness", "QuantityName": "Gasket Stiffness", "Unit": "Pa m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 132" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 132</object-name>
+        <member-data valType="String">{"DisplayText": "Heat Flux", "QuantityName": "Heat Flux", "Unit": "W m^-2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 133" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 133</object-name>
+        <member-data valType="String">{"DisplayText": "Heat Generation", "QuantityName": "Heat Generation", "Unit": "W m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 134" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 134</object-name>
+        <member-data valType="String">{"DisplayText": "Heat Rate", "QuantityName": "Heat Rate", "Unit": "W", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 135" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 135</object-name>
+        <member-data valType="String">{"DisplayText": "Impulse", "QuantityName": "Impulse", "Unit": "N s", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 136" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 136</object-name>
+        <member-data valType="String">{"DisplayText": "Impulse Per Angular Unit", "QuantityName": "Impulse Per Angular Unit", "Unit": "N s rad^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 137" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 137</object-name>
+        <member-data valType="String">{"DisplayText": "Inductance", "QuantityName": "Inductance", "Unit": "H", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 138" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 138</object-name>
+        <member-data valType="String">{"DisplayText": "Inverse Stress", "QuantityName": "Inverse Stress", "Unit": "Pa^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 139" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 139</object-name>
+        <member-data valType="String">{"DisplayText": "Moment of Inertia of Area", "QuantityName": "Moment of Inertia of Area", "Unit": "m^2 m^2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 140" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 140</object-name>
+        <member-data valType="String">{"DisplayText": "Moment of Inertia of Mass", "QuantityName": "Moment of Inertia of Mass", "Unit": "kg m^2", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 141" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 141</object-name>
+        <member-data valType="String">{"DisplayText": "PSD Acceleration", "QuantityName": "PSD Acceleration", "Unit": "m^2 s^-4 Hz^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 142" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 142</object-name>
+        <member-data valType="String">{"DisplayText": "PSD Acceleration Gravity", "QuantityName": "PSD Acceleration Gravity", "Unit": "gravity^2 Hz^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 143" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 143</object-name>
+        <member-data valType="String">{"DisplayText": "PSD Displacement", "QuantityName": "PSD Displacement", "Unit": "m^2 Hz^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 144" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 144</object-name>
+        <member-data valType="String">{"DisplayText": "PSD Force", "QuantityName": "PSD Force", "Unit": "N^2 Hz^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 145" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 145</object-name>
+        <member-data valType="String">{"DisplayText": "PSD Moment", "QuantityName": "PSD Moment", "Unit": "N^2 m^2 Hz^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 146" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 146</object-name>
+        <member-data valType="String">{"DisplayText": "PSD Pressure", "QuantityName": "PSD Pressure", "Unit": "Pa^2 Hz^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 147" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 147</object-name>
+        <member-data valType="String">{"DisplayText": "PSD Strain", "QuantityName": "PSD Strain", "Unit": "m^2 m^-2 Hz^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 148" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 148</object-name>
+        <member-data valType="String">{"DisplayText": "PSD Stress", "QuantityName": "PSD Stress", "Unit": "Pa^2 Hz^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 149" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 149</object-name>
+        <member-data valType="String">{"DisplayText": "PSD Velocity", "QuantityName": "PSD Velocity", "Unit": "m^2 s^-2 Hz^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 150" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 150</object-name>
+        <member-data valType="String">{"DisplayText": "Relative Permeability", "QuantityName": "Relative Permeability", "Unit": "H H^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 151" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 151</object-name>
+        <member-data valType="String">{"DisplayText": "Relative Permittivity", "QuantityName": "Relative Permittivity", "Unit": "farad farad^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 152" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 152</object-name>
+        <member-data valType="String">{"DisplayText": "Rotational Damping", "QuantityName": "Rotational Damping", "Unit": "N m s rad^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 153" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 153</object-name>
+        <member-data valType="String">{"DisplayText": "Rotational Stiffness", "QuantityName": "Rotational Stiffness", "Unit": "N m rad^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 154" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 154</object-name>
+        <member-data valType="String">{"DisplayText": "Section Modulus", "QuantityName": "Section Modulus", "Unit": "m^3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 155" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 155</object-name>
+        <member-data valType="String">{"DisplayText": "Shear Strain", "QuantityName": "Shear Strain", "Unit": "rad", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 156" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 156</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Weight", "QuantityName": "Specific Weight", "Unit": "N m^-3", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 157" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 157</object-name>
+        <member-data valType="String">{"DisplayText": "Stiffness", "QuantityName": "Stiffness", "Unit": "N m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 158" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 158</object-name>
+        <member-data valType="String">{"DisplayText": "Strain", "QuantityName": "Strain", "Unit": "m m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 159" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 159</object-name>
+        <member-data valType="String">{"DisplayText": "Strength", "QuantityName": "Strength", "Unit": "Pa", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 160" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 160</object-name>
+        <member-data valType="String">{"DisplayText": "Stress", "QuantityName": "Stress", "Unit": "Pa", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 161" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 161</object-name>
+        <member-data valType="String">{"DisplayText": "Stress Per Temperature", "QuantityName": "Stress Per Temperature", "Unit": "Pa C^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 162" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 162</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature Difference", "QuantityName": "Temperature Difference", "Unit": "C", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 163" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 163</object-name>
+        <member-data valType="String">{"DisplayText": "Translational Damping", "QuantityName": "Translational Damping", "Unit": "N s m^-1", "Suppressed": False}</member-data>
+      </Object>
+      <Object Name="/Units/Quantity:Quantity 164" Version="1">
+        <class-type valType="String">Quantity</class-type>
+        <object-name valType="String">Quantity 164</object-name>
+        <member-data valType="String">{"DisplayText": "Warping Factor", "QuantityName": "Warping Factor", "Unit": "m^6", "Suppressed": False}</member-data>
+      </Object>
+      <container-type valType="String">Ans.Units.Commands.Addin:Units</container-type>
+      <static-id valType="String">Units</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{Extrinsic: 574, Input: 741, Output: 574}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{}</last-update-regen-times>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+    </Container>
+    <Container Name="Engineering Data" Version="1">
+      <Object Name="/Engineering Data/EngineeringData:Engineering Data" Version="1">
+        <class-type valType="String">EngineeringData</class-type>
+        <object-name valType="String">Engineering Data</object-name>
+        <member-data valType="String">{"DisplayText": "Engineering Data", "DataTypeToTransferData": {"material": $$5a575fd4-d984-4610-9252-4c7246767111}}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/Material:Structural Steel" Version="1">
+        <class-type valType="String">Material</class-type>
+        <object-name valType="String">Structural Steel</object-name>
+        <member-data valType="String">{"DisplayText": "Structural Steel", "MaterialProperties": [$$756019c3-d1e4-4d8d-bf9c-fd3024fceaad, $$4bff5833-f351-4fa6-ad26-47c36fd09e12, $$4594b29f-432c-4b52-8142-b312ff633f75, $$1a4b02e1-b9cc-4099-a707-9dce5cf3824b, $$8fbb1f04-f04c-467c-94f9-0edb1cc63d12, $$fe902b9c-1eb4-42da-8280-0e58fce86883, $$9096a615-a931-4580-814b-798abdd23699, $$826a6eeb-e827-49bc-89b8-86cde716baef, $$eccaf5b2-9988-48eb-8ef1-2ad27c09f640, $$a0c4df90-a75d-46e0-a759-099273a5878b, $$ea20af2e-c420-4b1f-9979-3f642461c9c5, $$963bb35d-93b3-4ccf-8043-7fdaa6c5417e, $$1ef2bf30-8fa2-48f4-a193-439ec56eecc8]}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Compressive Ultimate Strength" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Compressive Ultimate Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Compressive Ultimate Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Compressive Yield Strength" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Compressive Yield Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Compressive Yield Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Density" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Density</object-name>
+        <member-data valType="String">{"DisplayText": "Density"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Tensile Yield Strength" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Tensile Yield Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Tensile Yield Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Tensile Ultimate Strength" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Tensile Ultimate Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Tensile Ultimate Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Coefficient of Thermal Expansion" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Coefficient of Thermal Expansion</object-name>
+        <member-data valType="String">{"DisplayText": "Coefficient of Thermal Expansion"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Specific Heat" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Specific Heat</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Heat"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Thermal Conductivity" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Thermal Conductivity</object-name>
+        <member-data valType="String">{"DisplayText": "Thermal Conductivity"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Alternating Stress" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Alternating Stress</object-name>
+        <member-data valType="String">{"DisplayText": "Alternating Stress"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Strain-Life Parameters" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Strain-Life Parameters</object-name>
+        <member-data valType="String">{"DisplayText": "Strain-Life Parameters"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Relative Permeability" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Relative Permeability</object-name>
+        <member-data valType="String">{"DisplayText": "Relative Permeability"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Resistivity" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Resistivity</object-name>
+        <member-data valType="String">{"DisplayText": "Resistivity"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialProperty:Isotropic Elasticity" Version="1">
+        <class-type valType="String">MaterialProperty</class-type>
+        <object-name valType="String">Isotropic Elasticity</object-name>
+        <member-data valType="String">{"DisplayText": "Isotropic Elasticity"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Compressive Ultimate Strength" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Compressive Ultimate Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Compressive Ultimate Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Compressive Yield Strength" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Compressive Yield Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Compressive Yield Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Density" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Density</object-name>
+        <member-data valType="String">{"DisplayText": "Density"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Tensile Yield Strength" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Tensile Yield Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Tensile Yield Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Tensile Ultimate Strength" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Tensile Ultimate Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Tensile Ultimate Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Coefficient of Thermal Expansion" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Coefficient of Thermal Expansion</object-name>
+        <member-data valType="String">{"DisplayText": "Coefficient of Thermal Expansion"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Reference Temperature" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Reference Temperature</object-name>
+        <member-data valType="String">{"DisplayText": "Reference Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Specific Heat" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Specific Heat</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Heat"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Thermal Conductivity" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Thermal Conductivity</object-name>
+        <member-data valType="String">{"DisplayText": "Thermal Conductivity"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Alternating Stress" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Alternating Stress</object-name>
+        <member-data valType="String">{"DisplayText": "Alternating Stress"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Strain-Life Parameters" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Strain-Life Parameters</object-name>
+        <member-data valType="String">{"DisplayText": "Strain-Life Parameters"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Relative Permeability" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Relative Permeability</object-name>
+        <member-data valType="String">{"DisplayText": "Relative Permeability"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Resistivity" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Resistivity</object-name>
+        <member-data valType="String">{"DisplayText": "Resistivity"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialPropertyData:Isotropic Elasticity" Version="1">
+        <class-type valType="String">MaterialPropertyData</class-type>
+        <object-name valType="String">Isotropic Elasticity</object-name>
+        <member-data valType="String">{"DisplayText": "Isotropic Elasticity"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Compressive Ultimate Strength" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Compressive Ultimate Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Compressive Ultimate Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Compressive Yield Strength" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Compressive Yield Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Compressive Yield Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Density" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Density</object-name>
+        <member-data valType="String">{"DisplayText": "Density"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Temperature" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Temperature</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Tensile Yield Strength" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Tensile Yield Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Tensile Yield Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Tensile Ultimate Strength" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Tensile Ultimate Strength</object-name>
+        <member-data valType="String">{"DisplayText": "Tensile Ultimate Strength"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Coefficient of Thermal Expansion" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Coefficient of Thermal Expansion</object-name>
+        <member-data valType="String">{"DisplayText": "Coefficient of Thermal Expansion"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Temperature 1" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Temperature 1</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Reference Temperature" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Reference Temperature</object-name>
+        <member-data valType="String">{"DisplayText": "Reference Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Specific Heat" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Specific Heat</object-name>
+        <member-data valType="String">{"DisplayText": "Specific Heat"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Temperature 2" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Temperature 2</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Thermal Conductivity" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Thermal Conductivity</object-name>
+        <member-data valType="String">{"DisplayText": "Thermal Conductivity"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Temperature 3" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Temperature 3</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Alternating Stress" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Alternating Stress</object-name>
+        <member-data valType="String">{"DisplayText": "Alternating Stress"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Cycles" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Cycles</object-name>
+        <member-data valType="String">{"DisplayText": "Cycles"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Mean Stress" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Mean Stress</object-name>
+        <member-data valType="String">{"DisplayText": "Mean Stress"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Strength Coefficient" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Strength Coefficient</object-name>
+        <member-data valType="String">{"DisplayText": "Strength Coefficient"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Strength Exponent" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Strength Exponent</object-name>
+        <member-data valType="String">{"DisplayText": "Strength Exponent"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Ductility Coefficient" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Ductility Coefficient</object-name>
+        <member-data valType="String">{"DisplayText": "Ductility Coefficient"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Ductility Exponent" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Ductility Exponent</object-name>
+        <member-data valType="String">{"DisplayText": "Ductility Exponent"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Cyclic Strength Coefficient" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Cyclic Strength Coefficient</object-name>
+        <member-data valType="String">{"DisplayText": "Cyclic Strength Coefficient"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Cyclic Strain Hardening Exponent" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Cyclic Strain Hardening Exponent</object-name>
+        <member-data valType="String">{"DisplayText": "Cyclic Strain Hardening Exponent"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Relative Permeability" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Relative Permeability</object-name>
+        <member-data valType="String">{"DisplayText": "Relative Permeability"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Resistivity" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Resistivity</object-name>
+        <member-data valType="String">{"DisplayText": "Resistivity"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Temperature 4" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Temperature 4</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Temperature 5" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Temperature 5</object-name>
+        <member-data valType="String">{"DisplayText": "Temperature"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Young's Modulus" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Young's Modulus</object-name>
+        <member-data valType="String">{"DisplayText": "Young's Modulus"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/MaterialVariable:Poisson's Ratio" Version="1">
+        <class-type valType="String">MaterialVariable</class-type>
+        <object-name valType="String">Poisson's Ratio</object-name>
+        <member-data valType="String">{"DisplayText": "Poisson's Ratio"}</member-data>
+      </Object>
+      <Object Name="/Engineering Data/ResourceTransferData:TransferData_material" Version="1">
+        <class-type valType="String">ResourceTransferData</class-type>
+        <object-name valType="String">TransferData_material</object-name>
+        <member-data valType="String">{"DisplayText": "TransferData_material", "Guids": ["edcaf23f-7980-4246-9f82-10a13898a89f"], "Data": $$a3740af4-84f3-48ff-b8fc-ac7c75e12956, "LastUpdate": 917}</member-data>
+      </Object>
+      <container-type valType="String">Ans.EngineeringData.Commands.Addin:Engineering Data</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <source valType="String">2827d327-ad27-43b9-b33d-1ea9f6139677</source>
+      <format valType="String">MatML31</format>
+      <DefaultSolidMaterial valType="String">Structural Steel</DefaultSolidMaterial>
+      <DefaultFluidMaterial valType="String">EDA_UNINITIALIZED_EDA</DefaultFluidMaterial>
+      <Source_DataObject valType="StringArray">
+        <ArrayEntry Index="0">Structural Steel::C:\Program Files\ANSYS Inc\v120\Addins\EngineeringData\Language\en-us\Samples\General_Materials.xml::Structural Steel</ArrayEntry>
+      </Source_DataObject>
+      <AdaptedEntityMap valType="String">Material:/Structural Steel::270a6206-d285-4adc-9137-eb9f9ddb95c0$$MaterialProperty:/Structural Steel\Compressive Ultimate Strength::756019c3-d1e4-4d8d-bf9c-fd3024fceaad$$MaterialPropertyData:/Structural Steel\Compressive Ultimate Strength\Compressive Ultimate Strength::c0f9d307-85e0-439c-a22d-575a47a6d38f$$MaterialVariable:/Structural Steel\Compressive Ultimate Strength\Compressive Ultimate Strength\Compressive Ultimate Strength::c4ce3f99-14fd-4857-8d57-30101f870cff$$MaterialProperty:/Structural Steel\Compressive Yield Strength::4bff5833-f351-4fa6-ad26-47c36fd09e12$$MaterialPropertyData:/Structural Steel\Compressive Yield Strength\Compressive Yield Strength::bb726a9d-f657-4455-bb42-53dd751bea70$$MaterialVariable:/Structural Steel\Compressive Yield Strength\Compressive Yield Strength\Compressive Yield Strength::27d185aa-bde7-4c34-9dab-0d2a2257aac2$$MaterialProperty:/Structural Steel\Density::4594b29f-432c-4b52-8142-b312ff633f75$$MaterialPropertyData:/Structural Steel\Density\Density::be6d4cc6-ffa9-48a4-aba3-e6e3c7dbec86$$MaterialVariable:/Structural Steel\Density\Density\Density::b53cdcc6-36e7-4050-ae6f-1ee3ae60c248$$MaterialVariable:/Structural Steel\Density\Density\Temperature::90c6478d-7c16-480c-8833-9e90484b2a7f$$MaterialProperty:/Structural Steel\Tensile Yield Strength::1a4b02e1-b9cc-4099-a707-9dce5cf3824b$$MaterialPropertyData:/Structural Steel\Tensile Yield Strength\Tensile Yield Strength::4d0c6d97-8250-482a-b714-50d6fa0a5725$$MaterialVariable:/Structural Steel\Tensile Yield Strength\Tensile Yield Strength\Tensile Yield Strength::91717508-de68-4897-a772-18300199f04c$$MaterialProperty:/Structural Steel\Tensile Ultimate Strength::8fbb1f04-f04c-467c-94f9-0edb1cc63d12$$MaterialPropertyData:/Structural Steel\Tensile Ultimate Strength\Tensile Ultimate Strength::e4e8b957-9fe1-4b14-9d31-5adb664eeba4$$MaterialVariable:/Structural Steel\Tensile Ultimate Strength\Tensile Ultimate Strength\Tensile Ultimate Strength::e9a34440-00d9-4f91-a3c2-57a9c669e451$$MaterialProperty:/Structural Steel\Coefficient of Thermal Expansion::fe902b9c-1eb4-42da-8280-0e58fce86883$$MaterialPropertyData:/Structural Steel\Coefficient of Thermal Expansion\Coefficient of Thermal Expansion::27b65473-0c53-4fcc-a37d-1359298e3d36$$MaterialVariable:/Structural Steel\Coefficient of Thermal Expansion\Coefficient of Thermal Expansion\Coefficient of Thermal Expansion::81d43c93-b493-4f9e-afcc-37b6776a7a56$$MaterialVariable:/Structural Steel\Coefficient of Thermal Expansion\Coefficient of Thermal Expansion\Temperature::f75b3b32-ee34-4ebd-b555-dd7190a41f17$$MaterialPropertyData:/Structural Steel\Coefficient of Thermal Expansion\Reference Temperature::f06de2a3-136e-4c68-be1a-b213f71ecb46$$MaterialVariable:/Structural Steel\Coefficient of Thermal Expansion\Reference Temperature\Reference Temperature::39e0ab81-2988-46b8-b20b-cd3c2bcc564d$$MaterialProperty:/Structural Steel\Specific Heat::9096a615-a931-4580-814b-798abdd23699$$MaterialPropertyData:/Structural Steel\Specific Heat\Specific Heat::d2891772-3bfc-4bd4-9cee-5a3223712a05$$MaterialVariable:/Structural Steel\Specific Heat\Specific Heat\Specific Heat::8660d152-ba37-4cd8-b85a-f94639b3a89e$$MaterialVariable:/Structural Steel\Specific Heat\Specific Heat\Temperature::39ad1e3b-764d-4c9c-a361-85d18495599a$$MaterialProperty:/Structural Steel\Thermal Conductivity::826a6eeb-e827-49bc-89b8-86cde716baef$$MaterialPropertyData:/Structural Steel\Thermal Conductivity\Thermal Conductivity[Isotropic]::7a00de94-22eb-4386-9378-393a9044e7d7$$MaterialVariable:/Structural Steel\Thermal Conductivity\Thermal Conductivity[Isotropic]\Thermal Conductivity::d7f51f39-07f1-4027-946e-9bba4fb6fd33$$MaterialVariable:/Structural Steel\Thermal Conductivity\Thermal Conductivity[Isotropic]\Temperature::bdf9b1d4-ffbf-4ba1-81b4-10fce45e252e$$MaterialProperty:/Structural Steel\Alternating Stress::eccaf5b2-9988-48eb-8ef1-2ad27c09f640$$MaterialPropertyData:/Structural Steel\Alternating Stress\Alternating Stress[Mean Stress]::aed1b839-d768-4254-a377-9dd4f9048dab$$MaterialVariable:/Structural Steel\Alternating Stress\Alternating Stress[Mean Stress]\Alternating Stress::fd37c610-1aea-4582-ba72-c95ce34e6abe$$MaterialVariable:/Structural Steel\Alternating Stress\Alternating Stress[Mean Stress]\Cycles::0ec7e13f-a9b2-402c-94f3-f8af5bca4e5e$$MaterialVariable:/Structural Steel\Alternating Stress\Alternating Stress[Mean Stress]\Mean Stress::7964437a-4777-4bab-b388-eba40cf842b7$$MaterialProperty:/Structural Steel\Strain-Life Parameters::a0c4df90-a75d-46e0-a759-099273a5878b$$MaterialPropertyData:/Structural Steel\Strain-Life Parameters\Strain-Life Parameters::56281c23-1012-464e-beca-11839c6ddee1$$MaterialVariable:/Structural Steel\Strain-Life Parameters\Strain-Life Parameters\Strength Coefficient::8a182222-87b0-49cd-96d5-6eab2ba1df9b$$MaterialVariable:/Structural Steel\Strain-Life Parameters\Strain-Life Parameters\Strength Exponent::59be9e14-13c2-4827-bc71-321bbfe87e11$$MaterialVariable:/Structural Steel\Strain-Life Parameters\Strain-Life Parameters\Ductility Coefficient::290f1384-0968-429b-be02-a86eef9bc152$$MaterialVariable:/Structural Steel\Strain-Life Parameters\Strain-Life Parameters\Ductility Exponent::dca2f538-2b06-4acd-bb4d-ce372a438197$$MaterialVariable:/Structural Steel\Strain-Life Parameters\Strain-Life Parameters\Cyclic Strength Coefficient::907a4965-af70-4dfe-841c-f4cdcae87b85$$MaterialVariable:/Structural Steel\Strain-Life Parameters\Strain-Life Parameters\Cyclic Strain Hardening Exponent::5f424304-f2ff-4ebf-bc05-7d488b9b91dc$$MaterialProperty:/Structural Steel\Relative Permeability::ea20af2e-c420-4b1f-9979-3f642461c9c5$$MaterialPropertyData:/Structural Steel\Relative Permeability\Relative Permeability::38da1432-6c9d-4ba7-a9f7-6fc8333db5ec$$MaterialVariable:/Structural Steel\Relative Permeability\Relative Permeability\Relative Permeability::59c79ed5-8acb-47fc-ba9d-2537d2651f2c$$MaterialProperty:/Structural Steel\Resistivity::963bb35d-93b3-4ccf-8043-7fdaa6c5417e$$MaterialPropertyData:/Structural Steel\Resistivity\Resistivity[Isotropic]::a1f3da78-4c94-404a-afdd-bde15227be11$$MaterialVariable:/Structural Steel\Resistivity\Resistivity[Isotropic]\Resistivity::3a2a84db-d341-40d7-9cb1-e47018548943$$MaterialVariable:/Structural Steel\Resistivity\Resistivity[Isotropic]\Temperature::81ffebe1-f089-4d51-81ae-fca5531d4d44$$MaterialProperty:/Structural Steel\Isotropic Elasticity::1ef2bf30-8fa2-48f4-a193-439ec56eecc8$$MaterialPropertyData:/Structural Steel\Isotropic Elasticity\Isotropic Elasticity::507bf29d-91aa-4249-87cd-b3e96953490c$$MaterialVariable:/Structural Steel\Isotropic Elasticity\Isotropic Elasticity\Temperature::7ac3987d-5cee-4d81-9b81-ac4c25853cf2$$MaterialVariable:/Structural Steel\Isotropic Elasticity\Isotropic Elasticity\Young's Modulus::be4aea31-e701-444c-8014-72a7cc0e577b$$MaterialVariable:/Structural Steel\Isotropic Elasticity\Isotropic Elasticity\Poisson's Ratio::87531e05-b99c-4242-b3a4-b56dbf2c43a3$$</AdaptedEntityMap>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">917</last-updated>
+      <last-modified-by-usage valType="String">{Extrinsic: 970, Input: 826, Output: 761}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{Preferences: 0, FileTypesContainer: 0, FileContainer: 0, Messages: 0, Parameters: 0, Schematic: 0, ReportDataContainer: 0, Graphics: 0, Units: 0, Engineering Data: 916, EngineeringDataAssistant: 0, EngineeringDataCurveFit: 0, EngineeringDataFavoriteItems: 0}</last-update-regen-times>
+      <unique-system-dir valType="String">SYS</unique-system-dir>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+    </Container>
+    <Container Name="Geometry" Version="1">
+      <Object Name="/Geometry/Geometry:GeometryDataObject" Version="1">
+        <class-type valType="String">Geometry</class-type>
+        <object-name valType="String">GeometryDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "GeometryDataObject", "_geometryFileRelativePath": r"dp0\SYS\DM\SYS.agdb", "_geometryPlugInName": "DesignModeler[1]", "GeomFileReference": $$8ae53440-0e8f-47da-a209-811b5a528815, "GeometryImportSolidBodies": True, "GeometryImportSurfaceBodies": True, "GeometryImportLineBodies": False, "GeometryImportParameters": True, "GeometryImportParametersFilter": "DS", "GeometryImportCadAttributes": False, "GeometryImportCadAttributesFilter": "SDFEA;DDM", "GeometryImportNamedSelections": False, "GeometryImportNamedSelectionsFilter": "NS", "GeometryImportMaterialProperties": False, "GeometryImportAnalysisType": "eAnalysisType_3D", "GeometryImportCadAssociativity": True, "GeometryImportCoordinateSystems": False, "GeometryImportWorkPoints": False, "GeometryImportSavePartFile": False, "GeometryImportImportUsingInstances": True, "GeometryImportSmartUpdate": False, "GeometryImportProcessEnclosures": True, "GeometryImportMixedResolutionOption": "eMixedImport_None", "Guid": "d835c545-f96b-4ab7-ac6b-fb9e751be92d", "ObjectState": 0, "UpstreamConnections": {}, "ImportedFeatures": {}, "AreDMParametersOutOfDate": False}</member-data>
+      </Object>
+      <Object Name="/Geometry/TransferData:Geometry" Version="1">
+        <class-type valType="String">TransferData</class-type>
+        <object-name valType="String">Geometry</object-name>
+        <member-data valType="String">{"DisplayText": "Geometry", "ConnectionKeys": ["17d30443-8407-4fd7-9425-863bf546449a"], "Data": $$f5b91604-8851-42b0-ad62-d0d195d1a456}</member-data>
+      </Object>
+      <container-type valType="String">Ans.DesignModeler.Core.Addin:Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">1044</last-updated>
+      <last-modified-by-usage valType="String">{Extrinsic: 1610, Input: 1041, Output: 1041}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{}</last-update-regen-times>
+      <unique-system-dir valType="String">SYS</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+    </Container>
+    <Container Name="Model" Version="1">
+      <Object Name="/Model/SimulationConnection:SimulationConnection" Version="1">
+        <class-type valType="String">SimulationConnection</class-type>
+        <object-name valType="String">SimulationConnection</object-name>
+        <member-data valType="String">{"DisplayText": "SimulationConnection", "Caption": "SimulationConnection", "EventIdToDataReferenceMap": {}, "DSIdToDataReferenceMap": {12: {"kCellModel": $$26e22951-91fb-40cd-a8b7-ed0b378ff9fb}, 11: {"kCellModel": $$26e22951-91fb-40cd-a8b7-ed0b378ff9fb}, 13: {"kCellModel": $$26e22951-91fb-40cd-a8b7-ed0b378ff9fb}, 20: {"kCellSetup": $$22dbe343-488e-437b-aae6-033a700e9a32}, 21: {"kCellSolution": $$94eace60-b63c-4941-ba7b-19594f5d4c80, "kCellResults": $$18788c14-14aa-4cce-8bf5-0494f949c8e6}}, "ConnectionGUID": "6912f21c-84cf-4dfe-805e-f3cf96b7a84e"}</member-data>
+      </Object>
+      <Object Name="/Model/SimulationSystemType:SystemType for Structural|Static|ANSYS" Version="1">
+        <class-type valType="String">SimulationSystemType</class-type>
+        <object-name valType="String">SystemType for Structural|Static|ANSYS</object-name>
+        <member-data valType="String">{"DisplayText": "SystemType for Structural|Static|ANSYS", "PhysicsType": "Structural", "AnalysisType": "Static", "SolverType": "ANSYS", "PhysicsTypeDisplayString": "Structural", "AnalysisTypeDisplayString": "Static Structural", "SolverTypeDisplayString": "ANSYS Mechanical", "SystemTypeCombination": None, "DelimitedSystemTypeCominbation": None, "SetupEntityType": "SimulationSetup", "SolutionEntityType": "SimulationSolution", "ResultsEntityType": "SimulationResults", "SetupDataEntityType": "SimulationSetupData", "SolutionDataEntityType": "SimulationSolutionData", "ResultsDataEntityType": "SimulationResultData", "Name": "Static Structural (ANSYS)", "SystemName": "SYS", "SystemID": "SYS"}</member-data>
+      </Object>
+      <Object Name="/Model/SimulationMesh:SimulationMeshDataObject" Version="1">
+        <custom-data>
+          <transferDataMap />
+          <AttentionRequired valType="String">False</AttentionRequired>
+          <value-keys valType="String">{"AttentionRequired": System.Boolean}</value-keys>
+          <dictionary-keys valType="String">[transferDataMap]</dictionary-keys>
+        </custom-data>
+        <class-type valType="String">SimulationMesh</class-type>
+        <object-name valType="String">SimulationMeshDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "SimulationMeshDataObject", "Caption": "Mesh", "MeshId": 13}</member-data>
+      </Object>
+      <Object Name="/Model/ContainerConnections:ModelContainerConnections" Version="1">
+        <class-type valType="String">ContainerConnections</class-type>
+        <object-name valType="String">ModelContainerConnections</object-name>
+        <member-data valType="String">{"DisplayText": "ModelContainerConnections", "Connections": {"Engineering Data": {$$480d46f7-c09c-4d41-9cc7-5d18d53cd84e: {"material": ["edcaf23f-7980-4246-9f82-10a13898a89f"]}}, "Geometry": {$$f5b91604-8851-42b0-ad62-d0d195d1a456: {"Geometry": ["17d30443-8407-4fd7-9425-863bf546449a"]}}}}</member-data>
+      </Object>
+      <Object Name="/Model/SimulationModel:SimulationModel" Version="1">
+        <custom-data>
+          <File valType="String">9b67fbdb-3817-4486-9ca1-46c1f138d23a</File>
+          <FilePath valType="String"></FilePath>
+          <AttentionRequired valType="String">False</AttentionRequired>
+          <ParameterValueModified valType="String">False</ParameterValueModified>
+          <value-keys valType="String">{"File": System.String, "FilePath": System.String, "AttentionRequired": System.Boolean, "ParameterValueModified": System.Boolean}</value-keys>
+        </custom-data>
+        <class-type valType="String">SimulationModel</class-type>
+        <object-name valType="String">SimulationModel</object-name>
+        <member-data valType="String">{"DisplayText": "SimulationModel", "Caption": "Model", "BaseGeomUpdate": 0, "LastGeomUpdate": 0, "File": $$9b67fbdb-3817-4486-9ca1-46c1f138d23a, "EdaFile": $$6d2ccc1d-9405-4b26-afea-16fb6d9bdd82, "ModelId": 11, "PrototypeId": 12, "ModelHash": "5ac3535b-45a5-4cde-81f2-ee24da873d3a", "IsResetNotRequired": False}</member-data>
+      </Object>
+      <container-type valType="String">Ans.Simulation.Core.Addin:SimulationModel</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">1150</last-updated>
+      <last-modified-by-usage valType="String">{Extrinsic: 1608, Input: 1149, Output: 1149}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{Preferences: 0, FileTypesContainer: 0, FileContainer: 0, Messages: 0, Parameters: 0, Schematic: 0, ReportDataContainer: 0, Graphics: 0, Units: 0, Engineering Data: 917, EngineeringDataAssistant: 0, EngineeringDataCurveFit: 0, EngineeringDataFavoriteItems: 0, Geometry: 1044, Model: 0, Setup: 0, Solution: 0, Results: 0}</last-update-regen-times>
+      <unique-system-dir valType="String">SYS</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+    </Container>
+    <Container Name="Setup" Version="1">
+      <Object Name="/Setup/SimulationSystemType:SystemType for Structural|Static|ANSYS" Version="1">
+        <class-type valType="String">SimulationSystemType</class-type>
+        <object-name valType="String">SystemType for Structural|Static|ANSYS</object-name>
+        <member-data valType="String">{"DisplayText": "SystemType for Structural|Static|ANSYS", "PhysicsType": "Structural", "AnalysisType": "Static", "SolverType": "ANSYS", "PhysicsTypeDisplayString": "Structural", "AnalysisTypeDisplayString": "Static Structural", "SolverTypeDisplayString": "ANSYS Mechanical", "SystemTypeCombination": "StructuralStaticANSYS", "DelimitedSystemTypeCominbation": "Structural|Static|ANSYS", "SetupEntityType": "SimulationSetup", "SolutionEntityType": "SimulationSolution", "ResultsEntityType": "SimulationResults", "SetupDataEntityType": "SimulationSetupData", "SolutionDataEntityType": "SimulationSolutionData", "ResultsDataEntityType": "SimulationResultData", "Name": "Static Structural (ANSYS)", "SystemName": "SYS", "SystemID": "SYS"}</member-data>
+      </Object>
+      <Object Name="/Setup/SimulationSetupData:SetupData for Structural|Static|ANSYS" Version="1">
+        <custom-data>
+          <transferDataMap />
+          <dictionary-keys valType="String">[transferDataMap]</dictionary-keys>
+        </custom-data>
+        <class-type valType="String">Ans.Simulation.Core.DataModel.DynamicSetupData, Ans.Simulation.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ans.Core.DataModel.DataEntitySpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Extrinsic", "IsParameterizable": True, "Methods": {"SetProperty": "SetEntityProperty", "GetProperties": "GetEntityProperties", "GetProperty": "GetEntityProperty", "SetProperties": "SetEntityProperties", "AcquireDataConnection": "Simulation.AcquireSetupDataConnection", "RetrieveData": "Simulation.RetrieveSimulationData", "ReleaseDataConnection": "Simulation.ReleaseSimulationDataConnection"}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "System", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Presentation": None, "Usage": "Extrinsic"}, "TransferType": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input"}}, "DataTypeHierarchy": "SimulationSetupData,DataEntity"}</type-spec>
+        <object-name valType="String">SetupData for Structural|Static|ANSYS</object-name>
+        <member-data valType="String">{"DisplayText": "SetupData for Structural|Static|ANSYS", "TransferType": None}</member-data>
+      </Object>
+      <Object Name="/Setup/ContainerConnections:ModelContainerConnections" Version="1">
+        <class-type valType="String">ContainerConnections</class-type>
+        <object-name valType="String">ModelContainerConnections</object-name>
+        <member-data valType="String">{"DisplayText": "ModelContainerConnections", "Connections": {}}</member-data>
+      </Object>
+      <Object Name="/Setup/SimulationSetup:SetupObject for Structural|Static|ANSYS" Version="1">
+        <custom-data>
+          <EnvironmentState valType="String">5</EnvironmentState>
+          <AttentionRequired valType="String">False</AttentionRequired>
+          <ParameterValueModified valType="String">False</ParameterValueModified>
+          <FutureIntent valType="String">False</FutureIntent>
+          <IsUsingDP0BasedWorkingDirectory valType="String">False</IsUsingDP0BasedWorkingDirectory>
+          <MechanicalBusyPendingChange valType="String">False</MechanicalBusyPendingChange>
+          <ExternalLoadsCount valType="String">0</ExternalLoadsCount>
+          <value-keys valType="String">{"EnvironmentState": System.Int32, "AttentionRequired": System.Boolean, "ParameterValueModified": System.Boolean, "FutureIntent": System.Boolean, "IsUsingDP0BasedWorkingDirectory": System.Boolean, "MechanicalBusyPendingChange": System.Boolean, "ExternalLoadsCount": System.Int32}</value-keys>
+        </custom-data>
+        <class-type valType="String">Ans.Simulation.Core.DataModel.DynamicSetupObject, Ans.Simulation.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ans.Core.DataModel.DataEntitySpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "IsParameterizable": True, "Methods": {"SetProperty": "SetEntityProperty", "GetProperties": "GetEntityProperties", "GetProperty": "GetEntityProperty", "SetProperties": "SetEntityProperties", "AcquireDataConnection": "Simulation.AcquireSetupDataConnection", "RetrieveData": "Simulation.RetrieveSimulationData", "ReleaseDataConnection": "Simulation.ReleaseSimulationDataConnection"}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "System", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Presentation": None, "Usage": "Extrinsic"}, "EnvironmentId": {"SpecType": "Ans.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib]], Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": -1, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "Max": None, "Min": None, "UndefinedValue": 2147483647}, "SolveHandlerName": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Extrinsic"}, "IsCreating": {"SpecType": "Ans.Core.DataSpecs.BooleanSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": False, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input"}, "SetupOnly": {"SpecType": "Ans.Core.DataSpecs.BooleanSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": False, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Extrinsic"}, "ConnectionGUID": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Extrinsic"}, "Attributes": {"SpecType": "Ans.Core.DataSpecs.DictionarySpec`2[[System.String, mscorlib],[System.Collections.Generic.List`1[[System.String, mscorlib]], mscorlib]], Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": {}, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "ElementSpec": {"SpecType": "Ans.Core.DataSpecs.ListSpec`1[[System.String, mscorlib]], Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": [], "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "ElementSpec": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input"}, "MaxLength": 2147483647, "MinLength": 0}, "KeySpec": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input"}}}, "DataTypeHierarchy": "SimulationSetup,DataEntity"}</type-spec>
+        <object-name valType="String">SetupObject for Structural|Static|ANSYS</object-name>
+        <member-data valType="String">{"DisplayText": "SetupObject for Structural|Static|ANSYS", "EnvironmentId": 20, "SolveHandlerName": None, "IsCreating": False, "SetupOnly": False, "ConnectionGUID": None, "Attributes": {}}</member-data>
+      </Object>
+      <container-type valType="String">Ans.Simulation.Core.Addin:SimulationSetup</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">1594</last-updated>
+      <last-modified-by-usage valType="String">{Extrinsic: 1585, Input: 1585, Output: 1585}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{Preferences: 0, FileTypesContainer: 0, FileContainer: 0, Messages: 0, Parameters: 0, Schematic: 0, ReportDataContainer: 0, Graphics: 0, Units: 0, Engineering Data: 917, EngineeringDataAssistant: 0, EngineeringDataCurveFit: 0, EngineeringDataFavoriteItems: 0, Geometry: 1044, Model: 1150, Setup: 1534, Solution: 1535, Results: 1543}</last-update-regen-times>
+      <unique-system-dir valType="String">SYS</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+    </Container>
+    <Container Name="Solution" Version="1">
+      <Object Name="/Solution/SimulationSystemType:SystemType for Structural|Static|ANSYS" Version="1">
+        <class-type valType="String">SimulationSystemType</class-type>
+        <object-name valType="String">SystemType for Structural|Static|ANSYS</object-name>
+        <member-data valType="String">{"DisplayText": "SystemType for Structural|Static|ANSYS", "PhysicsType": "Structural", "AnalysisType": "Static", "SolverType": "ANSYS", "PhysicsTypeDisplayString": "Structural", "AnalysisTypeDisplayString": "Static Structural", "SolverTypeDisplayString": "ANSYS Mechanical", "SystemTypeCombination": "StructuralStaticANSYS", "DelimitedSystemTypeCominbation": "Structural|Static|ANSYS", "SetupEntityType": "SimulationSetup", "SolutionEntityType": "SimulationSolution", "ResultsEntityType": "SimulationResults", "SetupDataEntityType": "SimulationSetupData", "SolutionDataEntityType": "SimulationSolutionData", "ResultsDataEntityType": "SimulationResultData", "Name": "Static Structural (ANSYS)", "SystemName": "SYS", "SystemID": "SYS"}</member-data>
+      </Object>
+      <Object Name="/Solution/SimulationSolutionData:SolutionData for Structural|Static|ANSYS" Version="1">
+        <custom-data>
+          <transferDataMap />
+          <dictionary-keys valType="String">[transferDataMap]</dictionary-keys>
+        </custom-data>
+        <class-type valType="String">Ans.Simulation.Core.DataModel.DynamicSolutionData, Ans.Simulation.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ans.Core.DataModel.DataEntitySpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Extrinsic", "IsParameterizable": True, "Methods": {"SetProperty": "SetEntityProperty", "GetProperties": "GetEntityProperties", "GetProperty": "GetEntityProperty", "SetProperties": "SetEntityProperties", "AcquireDataConnection": "Simulation.AcquireSimulationSolutionConnection", "RetrieveData": "Simulation.RetrieveSimulationData", "ReleaseDataConnection": "Simulation.ReleaseSimulationDataConnection"}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "System", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Presentation": None, "Usage": "Extrinsic"}, "TransferType": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input"}}, "DataTypeHierarchy": "SimulationSolutionData,DataEntity"}</type-spec>
+        <object-name valType="String">SolutionData for Structural|Static|ANSYS</object-name>
+        <member-data valType="String">{"DisplayText": "SolutionData for Structural|Static|ANSYS", "TransferType": None}</member-data>
+      </Object>
+      <Object Name="/Solution/SimulationSolutionDataInternal:SolutionDataInternal for Structural|Static|ANSYS" Version="1">
+        <class-type valType="String">Ans.Simulation.Core.DataModel.DynamicSolutionDataInternal, Ans.Simulation.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ans.Core.DataModel.DataEntitySpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "IsParameterizable": True, "Methods": {"SetProperty": "SetEntityProperty", "GetProperties": "GetEntityProperties", "GetProperty": "GetEntityProperty", "SetProperties": "SetEntityProperties"}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "System", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Presentation": None, "Usage": "Extrinsic"}}, "DataTypeHierarchy": "SimulationSolutionDataInternal,DataEntity"}</type-spec>
+        <object-name valType="String">SolutionDataInternal for Structural|Static|ANSYS</object-name>
+        <member-data valType="String">{"DisplayText": "SolutionDataInternal for Structural|Static|ANSYS"}</member-data>
+      </Object>
+      <Object Name="/Solution/SimulationSolution:SolutionObject for Structural|Static|ANSYS" Version="1">
+        <custom-data>
+          <AnalysisState valType="String">6</AnalysisState>
+          <ResultsDownloadRequired valType="String">False</ResultsDownloadRequired>
+          <AttentionRequired valType="String">False</AttentionRequired>
+          <value-keys valType="String">{"AnalysisState": System.Int32, "ResultsDownloadRequired": System.Boolean, "AttentionRequired": System.Boolean}</value-keys>
+        </custom-data>
+        <class-type valType="String">Ans.Simulation.Core.DataModel.DynamicSolutionObject, Ans.Simulation.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ans.Core.DataModel.DataEntitySpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "IsParameterizable": True, "Methods": {"SetProperty": "SetEntityProperty", "GetProperties": "GetEntityProperties", "GetProperty": "GetEntityProperty", "SetProperties": "SetEntityProperties"}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "System", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Presentation": None, "Usage": "Extrinsic"}, "Caption": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": "Solution", "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "ID_Spec_Solution_Caption", "Presentation": None, "Usage": "Input"}, "ResultId": {"SpecType": "Ans.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib]], Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": -1, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "Max": None, "Min": None, "UndefinedValue": 2147483647}}, "DataTypeHierarchy": "SimulationSolution,DataEntity"}</type-spec>
+        <object-name valType="String">SolutionObject for Structural|Static|ANSYS</object-name>
+        <member-data valType="String">{"DisplayText": "SolutionObject for Structural|Static|ANSYS", "Caption": "Solution", "ResultId": 21}</member-data>
+      </Object>
+      <container-type valType="String">Ans.Simulation.Core.Addin:SimulationSolution</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">1595</last-updated>
+      <last-modified-by-usage valType="String">{Extrinsic: 1586, Input: 1586, Output: 1586}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{Preferences: 0, FileTypesContainer: 0, FileContainer: 0, Messages: 0, Parameters: 0, Schematic: 0, ReportDataContainer: 0, Graphics: 0, Units: 0, Engineering Data: 917, EngineeringDataAssistant: 0, EngineeringDataCurveFit: 0, EngineeringDataFavoriteItems: 0, Geometry: 1044, Model: 1150, Setup: 1594, Solution: 1535, Results: 1543}</last-update-regen-times>
+      <unique-system-dir valType="String">SYS</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+    </Container>
+    <Container Name="Results" Version="1">
+      <Object Name="/Results/SimulationSystemType:SystemType for Structural|Static|ANSYS" Version="1">
+        <class-type valType="String">SimulationSystemType</class-type>
+        <object-name valType="String">SystemType for Structural|Static|ANSYS</object-name>
+        <member-data valType="String">{"DisplayText": "SystemType for Structural|Static|ANSYS", "PhysicsType": "Structural", "AnalysisType": "Static", "SolverType": "ANSYS", "PhysicsTypeDisplayString": "Structural", "AnalysisTypeDisplayString": "Static Structural", "SolverTypeDisplayString": "ANSYS Mechanical", "SystemTypeCombination": "StructuralStaticANSYS", "DelimitedSystemTypeCominbation": "Structural|Static|ANSYS", "SetupEntityType": "SimulationSetup", "SolutionEntityType": "SimulationSolution", "ResultsEntityType": "SimulationResults", "SetupDataEntityType": "SimulationSetupData", "SolutionDataEntityType": "SimulationSolutionData", "ResultsDataEntityType": "SimulationResultData", "Name": "Static Structural (ANSYS)", "SystemName": "SYS", "SystemID": "SYS"}</member-data>
+      </Object>
+      <Object Name="/Results/SimulationResultData:ResultsData for Structural|Static|ANSYS" Version="1">
+        <custom-data>
+          <transferDataMap />
+          <dictionary-keys valType="String">[transferDataMap]</dictionary-keys>
+        </custom-data>
+        <class-type valType="String">Ans.Simulation.Core.DataModel.DynamicResultData, Ans.Simulation.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ans.Core.DataModel.DataEntitySpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Extrinsic", "IsParameterizable": True, "Methods": {"SetProperty": "SetEntityProperty", "GetProperties": "GetEntityProperties", "GetProperty": "GetEntityProperty", "SetProperties": "SetEntityProperties", "AcquireDataConnection": "Simulation.AcquireSimulationResultsConnection", "RetrieveData": "Simulation.RetrieveSimulationData", "ReleaseDataConnection": "Simulation.ReleaseSimulationDataConnection"}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "System", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Presentation": None, "Usage": "Extrinsic"}, "TransferType": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input"}}, "DataTypeHierarchy": "SimulationResultData,DataEntity"}</type-spec>
+        <object-name valType="String">ResultsData for Structural|Static|ANSYS</object-name>
+        <member-data valType="String">{"DisplayText": "ResultsData for Structural|Static|ANSYS", "TransferType": None}</member-data>
+      </Object>
+      <Object Name="/Results/SimulationResults:ResultsObject for Structural|Static|ANSYS" Version="1">
+        <custom-data>
+          <FindAnswersState valType="String">6</FindAnswersState>
+          <AttentionRequired valType="String">False</AttentionRequired>
+          <ParameterValueModified valType="String">False</ParameterValueModified>
+          <value-keys valType="String">{"FindAnswersState": System.Int32, "AttentionRequired": System.Boolean, "ParameterValueModified": System.Boolean}</value-keys>
+        </custom-data>
+        <class-type valType="String">Ans.Simulation.Core.DataModel.DynamicResultsObject, Ans.Simulation.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ans.Core.DataModel.DataEntitySpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "IsParameterizable": True, "Methods": {"SetProperty": "SetEntityProperty", "GetProperties": "GetEntityProperties", "GetProperty": "GetEntityProperty", "SetProperties": "SetEntityProperties"}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ans.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": None, "Exposure": "System", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Presentation": None, "Usage": "Extrinsic"}, "AnswerSetId": {"SpecType": "Ans.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib]], Ans.Core", "Access": "UserWritable", "Constraints": None, "Context": None, "Default": -1, "Exposure": "AnyUser", "Group": None, "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": None, "Presentation": None, "Usage": "Input", "Max": None, "Min": None, "UndefinedValue": 2147483647}}, "DataTypeHierarchy": "SimulationResults,DataEntity"}</type-spec>
+        <object-name valType="String">ResultsObject for Structural|Static|ANSYS</object-name>
+        <member-data valType="String">{"DisplayText": "ResultsObject for Structural|Static|ANSYS", "AnswerSetId": 21}</member-data>
+      </Object>
+      <container-type valType="String">Ans.Simulation.Core.Addin:SimulationResults</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">1603</last-updated>
+      <last-modified-by-usage valType="String">{Extrinsic: 1602, Input: 1602, Output: 1602}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{Preferences: 0, FileTypesContainer: 0, FileContainer: 0, Messages: 0, Parameters: 0, Schematic: 0, ReportDataContainer: 0, Graphics: 0, Units: 0, Engineering Data: 917, EngineeringDataAssistant: 0, EngineeringDataCurveFit: 0, EngineeringDataFavoriteItems: 0, Geometry: 1044, Model: 1150, Setup: 1594, Solution: 1595, Results: 1543}</last-update-regen-times>
+      <unique-system-dir valType="String">SYS</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+    </Container>
+    <container-map valType="String">{"ReportDataContainer": Ans.ProjectReporting.Addin:ReportDataContainer, "Units": Ans.Units.Commands.Addin:Units, "Engineering Data": Ans.EngineeringData.Commands.Addin:Engineering Data, "Geometry": Ans.DesignModeler.Core.Addin:Geometry, "Model": Ans.Simulation.Core.Addin:SimulationModel, "Setup": Ans.Simulation.Core.Addin:SimulationSetup, "Solution": Ans.Simulation.Core.Addin:SimulationSolution, "Results": Ans.Simulation.Core.Addin:SimulationResults}</container-map>
+    <static-container-ids valType="String">{"ReportDataContainer": ReportDataContainer, "Units": Units}</static-container-ids>
+  </Containers>
+</Storage>
